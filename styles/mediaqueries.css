@@ -3,6 +3,28 @@
     footer, a {
       font-size: 1rem
     }
+    
+    .video-container {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    .center-text-overlay,
+    .title-text-overlay{
+      font-size: 20px;
+    }
+
+    .sub-text,
+    .center-bold-text {
+      font-size: 9px;
+    }
+
+    .lm-button,
+    .appstore-button {
+      font-size: 11px;
+      padding: 5px 7px;
+    }
+
   }
 /* s */
   @media (min-width: 640px) {
@@ -21,6 +43,33 @@
 
     .policies {
       line-height: 3rem;
+    }
+
+    .video-container {
+      margin-top: 25px;
+      margin-bottom: 25px;
+    }
+
+    .center-text-overlay,
+    .title-text-overlay{
+      font-size: 22px;
+    }
+
+    .sub-text,
+    .center-bold-text {
+      font-size: 13px;
+    }
+
+    .lm-button,
+    .appstore-button {
+      font-size: 13px;
+      padding: 6px 9px;
+      margin-top: 12px;
+    }
+
+    .team-container {
+      flex: 1 0 25%;
+      max-width: 25%;
     }
   }
 /* md*/
@@ -60,6 +109,26 @@
       padding-top: 0.5rem;
     }
 
+    .video-container {
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+
+    .center-text-overlay,
+    .title-text-overlay{
+      font-size: 30px;
+    }
+
+    .sub-text,
+    .center-bold-text {
+      font-size: 16px;
+    }
+
+    .lm-button,
+    .appstore-button {
+      font-size: 16px;
+      padding: 7px 11px;
+    }
   }
 
   /* lg */
@@ -82,7 +151,28 @@
     height: 3rem;
     width: auto;
     }
+
+    .video-container {
+      margin-top: 35px;
+      margin-bottom: 35px;
+    }
     
+    .center-text-overlay,
+    .title-text-overlay{
+      font-size: 37px;
+    }
+
+    .sub-text,
+    .center-bold-text {
+      font-size: 19px;
+    }
+
+    .lm-button,
+    .appstore-button {
+      font-size: 19px;
+      padding: 8px 14px;
+      margin-top: 16px;
+    }
   }
 /* xl */
   @media (min-width: 1280px) {
@@ -105,6 +195,27 @@
       width: 10%;
       height: auto;
     }
+
+    .video-container {
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+
+    .center-text-overlay,
+    .title-text-overlay{
+      font-size: 42px;
+    }
+
+    .sub-text,
+    .center-bold-text {
+      font-size: 21px;
+    }
+
+    .lm-button,
+    .appstore-button {
+      font-size: 21px;
+      padding: 9px 16px;
+    }
   }
 /* 2xl */
   @media (min-width: 1536px) {
@@ -114,6 +225,23 @@
 
     .footer-item-bottom {
       gap: 24rem;
+    }
+
+    .center-text-overlay,
+    .title-text-overlay{
+      font-size: 50px;
+    }
+
+    .sub-text,
+    .center-bold-text {
+      font-size: 25px;
+    }
+
+    .lm-button,
+    .appstore-button {
+      font-size: 25px;
+      padding: 11px 19px;
+      margin-top: 20px;
     }
   }
 
@@ -144,6 +272,7 @@
       width: 100%;
       text-align: center;
       transition: 0.3s;
+      z-index: 2;
     }
   
     .nav-item{
