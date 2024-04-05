@@ -16,13 +16,13 @@
 
 <ul class="nav-menu">
   <li class="nav-item">
-        <a href="#" class="nav-link">Our Mission</a>
+        <a href="#" onclick="scrollToDiv('OurMission')" class="nav-link">Our Mission</a>
       </li>
       <li class="nav-item">
-        <a href="#" class="nav-link">Our Team</a>
+        <a href="#" onclick="scrollToDiv('OurTeam')" class="nav-link">Our Team</a>
       </li>
       <li class="nav-item">
-        <a href="#" class="nav-link">Contact Us</a>
+        <a href="#" onclick="scrollToDiv('ContactUs')" class="nav-link">Contact Us</a>
       </li>
     </ul>
 
@@ -49,7 +49,7 @@
         <p>Enhance your railway</p>
         <p>experience with EnterEasy</p>
         <p class="sub-text">EnterEasy is a navigation app designed to provide wheelchair users with a better railway experience. Discover accessible routes, facilities, and more.</p>
-        <a class="lm-button">Learn More</a>
+        <a onclick="scrollToDiv('OurMission')" class="lm-button">Learn More</a>
       </div>
     </div>
   </div>
@@ -67,7 +67,7 @@
       <img src="./assets/images/companies/dpbl.png" alt="dpbl">
     </div>
   </div>
-  <div class="body-container">
+  <div id="OurMission" class="body-container">
     <div class="left-half">
       <div class="title-text-overlay">
         <p>Enhance your railway</p>
@@ -153,7 +153,7 @@
       </div>
     </div>
   </div>
-  <div class="body-container" style="margin-top: 5%; justify-content: flex-start;">
+  <div id="OurTeam" class="body-container" style="margin-top: 5%; justify-content: flex-start;">
     <div class="title-text-overlay" style="left: 0; margin-left: 2.5%;">
       <p>Meet Our Team</p>
       <p class="sub-text" style="max-width: 80%;">A diverse group of talented undergraduate students from 5 different countries, all passionate about making the lives of the disabled easier.</p>
@@ -236,6 +236,90 @@
       <p style="font-size: 0.8em;">About the project</p>
       <p class="sub-text">The team is led by the D-PBL initiative which is focused on contextualizing technical skills, imparting digital competencies relevant to business, and integrating students into multinational teams. Specific goals include assessing and enhancing lecturers' digital skills, training them in a blend of digital and pedagogic competencies, and establishing conducive project workspaces. Multi-national teams are organized to address real-world business problems, leveraging digital technologies for seamless communication and collaboration.</p>
       <a class="lm-button">More about D-PBL</a>
+    </div>
+  </div>
+  <div class="whitebody-container" style="margin-top: 5%;">
+    <div class="title-text-overlay" style="left: 0; text-align: center; margin: 5%;">
+      <p>Happy Customers</p>
+      <p class="sub-text">Read what our users have to say about EnterEasy.</p>
+    </div>
+  </div>
+  <div class="whitebody-container">
+    <div class="ratings-container">
+      <div class="rating">
+        <div class="star-container">
+          <div class="star">&#9733;</div>
+          <div class="star">&#9733;</div>
+          <div class="star">&#9733;</div>
+          <div class="star">&#9733;</div>
+          <div class="star">&#9734;</div>
+        </div>
+        <div class="sub-text" style="margin: 5%;">
+          <p>EnterEasy has made traveling so much easier for me!</p>
+        </div>
+        <div class="sub-text" style="color: #333333; margin: 5%;">
+          <p style="font-weight: bold; font-size: 0.8em;">John Doe</p>
+          <p style="font-size: 0.8em;">Traveler, ABC Company</p>
+        </div>
+      </div>
+      <div class="rating">
+        <div class="star-container">
+          <div class="star">&#9733;</div>
+          <div class="star">&#9733;</div>
+          <div class="star">&#9733;</div>
+          <div class="star">&#9733;</div>
+          <div class="star">&#9733;</div>
+        </div>
+        <div class="sub-text" style="margin: 5%;">
+          <p>I can't imagine traveling without EnterEasy anymore!</p>
+        </div>
+        <div class="sub-text" style="color: #333333; margin: 5%;">
+          <p style="font-weight: bold; font-size: 0.8em;">David Johnson</p>
+          <p style="font-size: 0.8em;">Explorer, XYZ Company</p>
+        </div>
+      </div>
+      <div class="rating">
+        <div class="star-container">
+          <div class="star">&#9733;</div>
+          <div class="star">&#9733;</div>
+          <div class="star">&#9733;</div>
+          <div class="star">&#9733;</div>
+          <div class="star">&#9734;</div>
+        </div>
+        <div class="sub-text" style="margin: 5%;">
+          <p>EnterEasy has truly transformed my travel experience!</p>
+        </div>
+        <div class="sub-text" style="color: #333333; margin: 5%;">
+          <p style="font-weight: bold; font-size: 0.8em;">Jane Smith</p>
+          <p style="font-size: 0.8em;">Adventurer, DEF Company</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="ContactUs" class="body-container" style="margin-top: 5%; justify-content: flex-start;">
+    <div class="title-text-overlay" style="left: 0; margin-left: 2.5%;">
+      <p>Contact Us</p>
+      <p class="sub-text" style="max-width: 80%;">Have any questions? Feel free to reach out to us.</p>
+    </div>
+  </div>
+  <div class="body-container" style="flex-wrap: wrap; justify-content: flex-start; width: 95%; margin:2.5%; flex: 1 0 40%; min-width: 40%;">
+    <div class="sub-text" style="color: #333333;">
+      <div class="empty-row"></div>
+      <p style="font-weight: bold; font-size: 1.1em;">Email</p>
+      <p>Send us an email</p>
+      <u>hello@EnterEasy.com</u>
+      <div class="empty-row"></div>
+      <p style="font-weight: bold; font-size: 1.1em;">Phone</p>
+      <p>Call us for assistance</p>
+      <u>+1 (555) 123-4567</u>
+      <div class="empty-row"></div>
+      <p style="font-weight: bold; font-size: 1.1em;">Office</p>
+      <p>Metro do Porto, Portugal</p>
+      <u>Check the map to your right out</u>
+      <div class="empty-row"></div>
+    </div>
+    <div class="map-container" style="flex: 1 0 60%;">
+      <img src="./assets/images/map.png" alt="map">
     </div>
   </div>
 </main>

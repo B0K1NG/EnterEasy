@@ -71,6 +71,11 @@
       flex: 1 0 25%;
       max-width: 25%;
     }
+
+    .rating {
+      flex: 0 0 31%;
+      min-width: 31%; 
+    }
   }
 /* md*/
   @media (min-width: 768px) {

@@ -199,7 +199,7 @@ a{
 }
 
 .lil-image-container img {
-  width: 15%; 
+  width: 10%; 
   margin: 0 10px;
 }
 
@@ -278,6 +278,56 @@ a{
   width: 100%;
   height: auto;
   border-radius: 50%;
+}
+
+.ratings-container {
+  display: flex;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+  align-items: center;
+  overflow-x: scroll; 
+  scroll-snap-type: x mandatory;
+}
+
+.rating {
+  flex: 0 0 98%;
+  min-width: 98%; 
+  scroll-snap-align: start;
+  background-color: transparent;
+  border: 2px solid #333333;
+  margin: 1%;
+  height: 80%;
+}
+
+.star-container {
+  width: 60%;
+  margin: 5%;
+  flex-wrap: wrap; 
+  justify-content: flex-start;
+}
+
+.star {
+  flex: 1 0 20%;
+  display: inline-block;
+}
+
+.empty-row {
+  min-height: 50px;
+  margin: 5%;
+}
+
+.map-container {
+  align-self: right;
+  width: 60%;
+}
+
+.map-container img{
+  align-self: right;
+  width: 80%;
+  margin: 5%;
+  overflow: hidden;
 }
 /* Footer */
 

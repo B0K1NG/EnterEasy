@@ -10,3 +10,10 @@ document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", 
   hamburger.classList.remove("active");
   navMenu.classList.remove("active");
 }))
+
+function scrollToDiv(id) {
+  const element = document.getElementById(id);
+  if (element) {
+    element.scrollIntoView({ behavior: 'smooth' });
+  }
+}
