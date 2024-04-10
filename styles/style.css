@@ -313,18 +313,16 @@ a{
 }
 
 .empty-row {
-  min-height: 50px;
+  min-height: 10px;
   margin: 5%;
 }
 
 .map-container {
-  align-self: right;
-  width: 60%;
+  flex: 1 0 50%;
 }
 
 .map-container img{
-  align-self: right;
-  width: 80%;
+  width: 95%;
   margin: 5%;
   overflow: hidden;
 }

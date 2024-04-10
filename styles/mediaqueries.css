@@ -77,6 +77,9 @@
       min-width: 31%; 
     }
 
+    .empty-row {
+      min-height: 20px;
+    }
   }
 /* md*/
   @media (min-width: 768px) {
@@ -140,6 +143,10 @@
       width: 60px;
       height: 60px;
     }
+
+    .empty-row {
+      min-height: 30px;
+    }
   }
 
   /* lg */
@@ -170,12 +177,12 @@
     
     .center-text-overlay,
     .title-text-overlay{
-      font-size: 37px;
+      font-size: 34px;
     }
 
     .sub-text,
     .center-bold-text {
-      font-size: 19px;
+      font-size: 17px;
     }
 
     .lm-button,
@@ -188,6 +195,10 @@
     .team-image-container img {
       width: 70px;
       height: 70px;
+    }
+
+    .empty-row {
+      min-height: 50px;
     }
   }
 /* xl */
@@ -219,12 +230,12 @@
 
     .center-text-overlay,
     .title-text-overlay{
-      font-size: 42px;
+      font-size: 38px;
     }
 
     .sub-text,
     .center-bold-text {
-      font-size: 21px;
+      font-size: 19px;
     }
 
     .lm-button,
@@ -236,6 +247,10 @@
     .team-image-container img {
       width: 85px;
       height: 85px;
+    }
+
+    .empty-row {
+      min-height: 90px;
     }
   }
 /* 2xl */
@@ -250,12 +265,12 @@
 
     .center-text-overlay,
     .title-text-overlay{
-      font-size: 50px;
+      font-size: 45px;
     }
 
     .sub-text,
     .center-bold-text {
-      font-size: 25px;
+      font-size: 22px;
     }
 
     .lm-button,
@@ -268,6 +283,10 @@
     .team-image-container img {
       width: 100px;
       height: 100px;
+    }
+
+    .empty-row {
+      min-height: 120px;
     }
   }
 

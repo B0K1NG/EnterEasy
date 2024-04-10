@@ -17,3 +17,8 @@ function scrollToDiv(id) {
     element.scrollIntoView({ behavior: 'smooth' });
   }
 }
+
+var map = L.map('map').setView([0, 0], 1);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+{ attribution: 'OBS Maps'
+}).addTo(map);
