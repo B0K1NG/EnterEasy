@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #9EC9EC;
+}
+
+/* NAVBAR */
+header{
+  background-color: #4682B4;
+  font-weight: bold;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  color: #333333;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.container{  
+  width: 92%;
+  margin: 0 auto;
+}
+
+.navbar{
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.nav-menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-link,
+.download-app,
+.footer-item,
+.policies{
+  transition: 0.3s ease-out;
+}
+
+.nav-link:hover,
+.download-app:hover,
+.footer-item:hover,
+.policies:hover{
+  color: #9EC9EC;
+}
+
+.bar{
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  background-color: #333333;
+}
+.logo img,
+.logo1 img {
+ height: 2rem;
+ width: auto;
+ cursor: default;
+}
+
+.nav-center {
+  font-size: 1rem;
+  padding: auto;
+  border: 1px solid #333333;
+  border-width: 0.4rem;
+  border-radius: 8px;
+  background-color: #333333;
+}
+
+.download-app {
+  color: whitesmoke;
+  text-align: center;
+}
+
+/* Main Body */
+
+.body-container {
+  width: 100%;
+  min-height: 200;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  position: relative;
+}
+
+.video-container {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 80%;
+  height: 80%;
+  overflow: hidden;
+  position: relative;
+}
+
+.video-container video {
+  width: 100%;
+  height: 100%; 
+  object-fit: cover; 
+}
+
+.center-text-overlay {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #333333; 
+  text-align: center;
+  font-size: 13px;
+  font-weight: bold;
+  z-index: 1;
+  white-space: nowrap;
+}
+
+.sub-text {
+  font-size: 7px;
+  margin-top: 5px;
+  font-weight: normal;
+  white-space: wrap;
+}
+
+.lm-button {
+  background-color: transparent;
+  border: 2px solid #333333;
+  color: #333333;
+  padding: 3px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 7px;
+  margin-top: 8px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+  text-transform: none;
+  font-weight: normal;
+}
+
+.lm-button:hover {
+  background-color: #333333;
+  color: #E7E7E7;
+}
+
+.whitebody-container {
+  width: 100%;
+  min-height: 70px;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  position: relative;
+  background-color: #E7E7E7;
+  overflow: auto;
+}
+
+.center-bold-text {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #333333; 
+  text-align: center;
+  font-size: 7px;
+  font-weight: bold;
+  z-index: 1;
+  white-space: nowrap;
+}
+
+.lil-image-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: center;
+  left: 2%;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+.lil-image-container img {
+  width: 10%; 
+  margin: 0 10px;
+}
+
+.left-half, .right-half {
+  flex: 1;
+  min-height: 100px;
+}
+
+.image-container {
+  margin: 5%;
+  width: 80%;
+  height: 80%;
+  overflow: hidden;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.title-text-overlay {
+  position: relative;
+  align-items: center;
+  left: 5%;
+  max-width: 95%;
+  color: #333333; 
+  text-align: left;
+  font-size: 13px;
+  font-weight: bold;
+  z-index: 1;
+  white-space: nowrap;
+  overflow: visible;
+}
+
+.appstore-button {
+  background-color: #333333;
+  border: 2px solid #333333;
+  color: #E7E7E7;
+  padding: 3px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 7px;
+  margin-top: 8px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+  text-transform: none;
+  font-weight: normal;
+}
+
+.appstore-button:hover {
+  background-color: #E7E7E7;
+  color: #333333;
+}
+
+.team-container {
+  margin-bottom: 10px;
+  flex: 1 0 50%;
+  max-width: 50%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.team-image-container{
+  width: 35%;
+  height: 30%;
+  overflow: hidden; 
+}
+
+.team-image-container img {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.ratings-container {
+  display: flex;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+  align-items: center;
+  overflow-x: scroll; 
+  scroll-snap-type: x mandatory;
+}
+
+.rating {
+  flex: 0 0 98%;
+  min-width: 98%; 
+  scroll-snap-align: start;
+  background-color: transparent;
+  border: 2px solid #333333;
+  margin: 1%;
+  height: 80%;
+}
+
+.star-container {
+  width: 60%;
+  margin: 5%;
+  flex-wrap: wrap; 
+  justify-content: flex-start;
+}
+
+.star {
+  flex: 1 0 20%;
+  display: inline-block;
+}
+
+.empty-row {
+  min-height: 10px;
+  margin: 5%;
+}
+
+.map-container {
+  flex: 1 0 50%;
+}
+
+.map-container img{
+  width: 95%;
+  margin: 5%;
+  overflow: hidden;
+}
+/* Footer */
+
+footer {
+  background-color: #4682B4;
+  color: #333333;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  font-size: 1rem;
+}
+
+.footer-info .logo1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: default;
+}
+
+.footer-item-top,
+.footer-item-bottom {
+  line-height: 2rem;
+  text-align: center;
+}
+
+.footer-item-top {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.footer-item-bottom {
+  padding-top: 3rem;
+}
+
+.policies {
+  text-decoration: underline;
+  text-underline-offset: 0.4rem;
+}
+
+hr {
+  border: 2px solid #333333;
+  width:50%;
+  margin-left:auto;
+  margin-right: auto;
+  cursor: default;
+}
