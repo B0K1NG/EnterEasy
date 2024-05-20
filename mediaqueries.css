@@ -1,0 +1,338 @@
+/* xs */
+  @media (min-width: 475px) {
+    footer, a {
+      font-size: 1rem
+    }
+    
+    .video-container {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    .center-text-overlay,
+    .title-text-overlay{
+      font-size: 20px;
+    }
+
+    .sub-text,
+    .center-bold-text {
+      font-size: 9px;
+    }
+
+    .lm-button,
+    .appstore-button {
+      font-size: 11px;
+      padding: 5px 7px;
+    }
+
+  }
+/* s */
+  @media (min-width: 640px) {
+    footer {
+      font-size: 1.3rem;
+    }
+    .logo img,
+    .logo1 img {
+    height: 2.3rem;
+    width: auto;
+}
+    .footer-item,
+    .policies {
+      cursor: pointer;
+    }
+
+    .policies {
+      line-height: 3rem;
+    }
+
+    .video-container {
+      margin-top: 25px;
+      margin-bottom: 25px;
+    }
+
+    .center-text-overlay,
+    .title-text-overlay{
+      font-size: 22px;
+    }
+
+    .sub-text,
+    .center-bold-text {
+      font-size: 13px;
+    }
+
+    .lm-button,
+    .appstore-button {
+      font-size: 13px;
+      padding: 6px 9px;
+      margin-top: 12px;
+    }
+
+    .team-container {
+      flex: 1 0 25%;
+      max-width: 25%;
+    }
+
+    .rating {
+      flex: 0 0 31%;
+      min-width: 31%; 
+    }
+
+    .empty-row {
+      min-height: 20px;
+    }
+  }
+/* md*/
+  @media (min-width: 768px) {
+    footer, a {
+      font-size: 1rem;
+    }
+
+    .footer-item-top {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+    }
+
+    .footer-item-bottom {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row-reverse;
+      gap: 2rem;
+    }
+    
+    .footer-item-right {
+      display: flex;
+      justify-content: flex-end;
+      gap: 2rem;
+    }
+
+    .footer-item-bottom {
+      padding-right: 1rem;
+      padding-left: 1rem;
+    }
+
+    .footer-item-left {
+      display: flex;
+      justify-content: flex-start;
+      padding-top: 0.5rem;
+    }
+
+    .video-container {
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+
+    .center-text-overlay,
+    .title-text-overlay{
+      font-size: 30px;
+    }
+
+    .sub-text,
+    .center-bold-text {
+      font-size: 16px;
+    }
+
+    .lm-button,
+    .appstore-button {
+      font-size: 16px;
+      padding: 7px 11px;
+    }
+
+    .team-image-container img {
+      width: 60px;
+      height: 60px;
+    }
+
+    .empty-row {
+      min-height: 30px;
+    }
+  }
+
+  /* lg */
+  @media (min-width: 1024px) {
+    footer, a {
+      font-size: 1.1rem;
+    }
+    
+    hr {
+      width: 85%;
+    }
+
+    .footer-item-right,
+    .footer-item-left {
+      margin-right: 2rem;
+    }
+
+    .logo img,
+    .logo1 img {
+    height: 3rem;
+    width: auto;
+    }
+
+    .video-container {
+      margin-top: 35px;
+      margin-bottom: 35px;
+    }
+    
+    .center-text-overlay,
+    .title-text-overlay{
+      font-size: 34px;
+    }
+
+    .sub-text,
+    .center-bold-text {
+      font-size: 17px;
+    }
+
+    .lm-button,
+    .appstore-button {
+      font-size: 19px;
+      padding: 8px 14px;
+      margin-top: 16px;
+    }
+
+    .team-image-container img {
+      width: 70px;
+      height: 70px;
+    }
+
+    .empty-row {
+      min-height: 50px;
+    }
+  }
+/* xl */
+  @media (min-width: 1280px) {
+    hr {
+      width: 82%;
+    }
+    .footer-item-bottom {
+      gap: 12rem;
+    }
+
+    .footer-item-right {
+      margin-right: 5rem;
+    }
+
+    .footer-item-left p {
+      padding-left: 5rem;
+    }
+
+    .logo1 img {
+      width: 10%;
+      height: auto;
+    }
+
+    .video-container {
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+
+    .center-text-overlay,
+    .title-text-overlay{
+      font-size: 38px;
+    }
+
+    .sub-text,
+    .center-bold-text {
+      font-size: 19px;
+    }
+
+    .lm-button,
+    .appstore-button {
+      font-size: 21px;
+      padding: 9px 16px;
+    }
+
+    .team-image-container img {
+      width: 85px;
+      height: 85px;
+    }
+
+    .empty-row {
+      min-height: 90px;
+    }
+  }
+/* 2xl */
+  @media (min-width: 1536px) {
+    .footer-item-right {
+      margin-right: 7rem;
+    }
+
+    .footer-item-bottom {
+      gap: 24rem;
+    }
+
+    .center-text-overlay,
+    .title-text-overlay{
+      font-size: 45px;
+    }
+
+    .sub-text,
+    .center-bold-text {
+      font-size: 22px;
+    }
+
+    .lm-button,
+    .appstore-button {
+      font-size: 25px;
+      padding: 11px 19px;
+      margin-top: 20px;
+    }
+
+    .team-image-container img {
+      width: 100px;
+      height: 100px;
+    }
+
+    .empty-row {
+      min-height: 120px;
+    }
+  }
+
+
+  /* md */ /* DO NOT TOUCH! */ /* HAMBURGER QUERI */ 
+  @media (max-width: 768px) {
+    .hamburger{
+      display: block;
+    }
+  
+    .hamburger.active .bar:nth-child(2){
+      opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+      transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+      transform: translateY(-8px) rotate(-45deg);
+    }
+  
+    .nav-menu{
+      position: fixed;
+      left: -100%;
+      top: 70px;
+      gap: 0;
+      flex-direction: column;
+      background-color: #4682B4;
+      width: 100%;
+      text-align: center;
+      transition: 0.3s;
+      z-index: 2;
+    }
+  
+    .nav-item{
+      margin: 16px 0;
+    }
+  
+    .nav-menu.active{
+      left: 0;
+    }
+
+    .nav-center {
+      margin-right: 3rem;
+      text-align: center;
+      border-width: 0.5rem;
+      width: 8rem;
+    }
+    
+  }

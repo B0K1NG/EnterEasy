@@ -14,9 +14,7 @@ EnterEasy aims to enhance the accessibility experience for individuals with mobi
   
 - **User-Friendly Interface:** Intuitive design elements and clear navigation pathways to facilitate ease of use for all visitors.
 
-- **Real-Time Updates:** Keep users informed with live updates on station accessibility status and any service disruptions.
-
-- **Feedback Mechanism:** Encourage user engagement through feedback forms, enabling continuous improvement based on user experiences.
+- **Mobile Responsiveness:** Ensuring the website is accessible on various devices, including smartphones and tablets.
 
 ## Under Construction 🚧
 
@@ -24,11 +22,8 @@ As we strive to enhance accessibility further, EnterEasy is a work in progress. 
 
 ## Tech Stack 💻
 
-- HTML
-- CSS
-- JavaScript
-- Visual Studio Code
-
-## Contribution Guidelines 🤝
+- **Frontend:** HTML, CSS, JavaScript
+- **Version Control:** Git, GitHub
+- **Development Tools:** Visual Studio Code
 
 Together, let's make train station accessibility EnterEasy for everyone! 🚉✨
